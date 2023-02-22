@@ -1,0 +1,33 @@
+.moveContainer {
+    display: flex;
+    overflow: scroll;
+    height: 10rem;
+    flex-direction: column;
+    border: red solid 2px;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 10rem;
+    margin: 1rem;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.moveContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.container h2 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
